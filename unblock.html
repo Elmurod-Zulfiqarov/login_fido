@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnBlock page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluit text-center bg-dark text-warning py-5">
+
+
+    <h1 class="my-5">
+        Blockdan chiqish uchun quyidagi Blockdan chiqarish buttonni bosing
+    </h1>
+    <button type="button" id="unBlock" class="btn btn-primary btn-lg m-5">
+        Blockdan chiqarish
+    </button> <br>
+    <a href="./index.html" class="btn btn-danger">Asosiy sahifa</a>
+
+
+
+    <script>
+        let unBlockBTN = document.querySelector("#unBlock");
+        let isBlock = JSON.parse(localStorage.getItem("isBlock"));
+
+        if(unBlockBTN) {
+            unBlockBTN.addEventListener('click', function(){
+                isBlock = false;
+                localStorage.setItem("isBlock", JSON.stringify(isBlock))
+                alert("Siz blockdan chiqdingiz")
+                })
+        }
+    </script>
+</body>
+</html>

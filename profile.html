@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile Page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+<body>
+
+	<section class="profile mt-3">
+		<div class="d-flex align-items-center">
+
+			<div class="container">
+
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-12">
+					<div class="card" style="border-radius: 15px;">
+						<div class="card-body">
+						<div class="text-end">
+							<button id="backPage" type="button" class="btn btn-dark btn-sm">x</button>
+						</div>
+						<h2 class="text-uppercase text-center fw-bolder text-primary mt-2 mb-4">User Profile</h2>
+						<hr>
+						<div class="row fw-bolder">
+							<div class="col-2">
+								<p>First Name : </p>
+								<p>Last Name : </p>
+								<p>Email : </p>
+								<p>password : </p>
+								<a href="actions.html" class=" my-3 btn btn-secondary">
+									 actions (change)
+								</a>
+							</div>
+							<div class="col-3">
+								<p id="Myfname">Test Fname</p>
+								<p id="Mylname">Test Lname</p>
+								<p id="Myemail">testuser@gmail.com</p>
+								<p id="Mypassword">test1324</p>
+							</div>
+							<div class="col-1 mb-2">
+								<button type="button" id="delete" class="btn btn-danger">delete</button>
+								<br> <br>
+								<button type="button" id="edit" class="btn btn-success">edit</button>
+							</div>
+							<div id="editSpace" class="col-5">
+
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="./js/profile.js"></script>
+
+</body>
+</html>

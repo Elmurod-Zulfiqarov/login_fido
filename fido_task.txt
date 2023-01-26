@@ -1,0 +1,17 @@
+Sirojiddin aka, [1/21/23 6:38 PM]
+Texnik suhbat uchun vazifa - Login Page yaratish
+ - unda foydalauvchi Ism, Familiya, email yoki tel nomer bilan ro'yxatdan o'tish,
+ - ro'yxatdan o'tgan user parol va email yoki tel nomer orqali kirish
+ -Ro'yxatdan o'tib yoki parolni terib kirganda uning ma'lumotlari aks etishi kerak
+ -U istalgan vaqtda unga tegishli ma'lumotlarni o'zgartira olishi kerak
+- Yana bir qo'shimcha oynada esa qilingan o'zgarishlarni ko'rsatib turishi kerak( unda har bir qilinga o'zgarish qilingan sana bilan ko'rsatilishi kerak (jadval ko'rinishida))
+ - agar 3 marta xato tersa userni blok qilish
+ - blok qilingan user qayta kirganda uni blokda ekanligini ko'rsatish
+ -agar parol esdan chiqqan taqdirda Ism,Familiya,Email yoki tel nomer orqali parolni o'zgartirish
+ -Bitta email yoki tel nomer bilan bir marta kirish, agar ishlatilgan email qayta terilda u ishlatilganligi to'g'risida ma'lumotni chiqarish
+
+Sirojiddin aka, [1/21/23 6:41 PM]
+dizaynni o'zingiz istalgande tanlaysiz
+
+Sirojiddin aka, [1/21/23 6:41 PM]
+Vazifani qachon tayyor bo'lishini bizga ma'lum qiling
